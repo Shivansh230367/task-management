@@ -1,0 +1,93 @@
+/* Dark theme and professional style */
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.register-card {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+}
+
+.register-title {
+  font-size: 2rem;
+  color: #00c49f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-label {
+  color: #ddd;
+  font-size: 1rem;
+}
+
+.register-input {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.register-input:focus {
+  border-color: #00c49f;
+  outline: none;
+}
+
+.register-btn {
+  background-color: #00c49f;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #008c76;
+}
+
+@media (max-width: 768px) {
+  .register-card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .register-container {
+    margin-top: 40px;
+    margin-bottom: 40px; /* Increase top margin on mobile */
+  }
+
+  .register-title {
+    font-size: 1.5rem;
+  }
+
+  .register-input {
+    font-size: 0.9rem;
+  }
+
+  .register-btn {
+    font-size: 1rem;
+  }
+}

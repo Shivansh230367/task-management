@@ -1,0 +1,126 @@
+/* Chat container */
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1f1f1f; /* Dark background */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Darker shadow */
+    color: #e5e5e5; /* Light text color */
+}
+
+/* Apply top margin for mobile view only */
+@media (max-width: 768px) {
+    .chat-container {
+        margin-top: 20px;
+    }
+}
+
+/* Chat title */
+.chat-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffcc00; /* Accent color for title */
+}
+
+/* Chat window */
+.chat-window {
+    border: 1px solid #333; /* Darker border */
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    background-color: #2b2b2b; /* Darker background */
+    color: #e5e5e5; /* Light text color */
+}
+
+/* Message bubbles */
+.chat-bubble {
+    padding: 10px;
+    margin: 10px 0;
+    max-width: 60%;
+    border-radius: 15px;
+    position: relative;
+    color: #e5e5e5;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Current user's messages */
+.mine {
+    background-color: #4a7c59;
+    margin-left: auto;
+    text-align: right;
+    align-self: flex-end;
+}
+
+/* Other user's messages */
+.theirs {
+    background-color: #3a3a3a;
+    margin-right: auto;
+    text-align: left;
+    align-self: flex-start;
+    border: 1px solid #555;
+}
+
+/* Input container */
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Chat input field */
+.chat-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #3a3a3a;
+    color: #e5e5e5;
+    width: 80%;
+}
+
+/* Send button */
+.send-button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #1f1f1f;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+/* Reduce button size for mobile view */
+@media (max-width: 768px) {
+    .send-button {
+        padding: 8px 16px;
+        font-size: 15px;
+    }
+}
+
+/* Send button hover effect */
+.send-button:hover {
+    background-color: #e0a800;
+}
+
+/* Message bubbles */
+.chat-bubble {
+    padding: 10px;
+    margin: 10px 0;
+    max-width: 85%;
+    border-radius: 15px;
+    position: relative;
+    color: #e5e5e5;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}

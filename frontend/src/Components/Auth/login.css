@@ -1,0 +1,66 @@
+/* Fullscreen container to center the login card */
+.fullscreen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1c1c1e;
+  margin: 0;
+}
+
+/* Centered login card */
+.cardOne {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #2a2a2e;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+}
+
+.text-center {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+/* Input fields styling */
+input.form-control {
+  background-color: #3a3a3d;
+  color: #ffffff;
+  border: 1px solid #555555;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+input.form-control:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Button styling */
+button.btn-primary {
+  background-color: #3498db;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+/* Link styling */
+.text-center a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}
